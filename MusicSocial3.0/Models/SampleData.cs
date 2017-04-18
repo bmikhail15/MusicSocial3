@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Data.Entity;
 
+
+
 namespace MusicSocial3.Models
 {
     public class SampleData : DropCreateDatabaseIfModelChanges<MusicStoreEntities>

@@ -15,7 +15,8 @@ namespace MusicSocial3
         protected void Application_Start()
         {
             System.Data.Entity.Database.SetInitializer(
-                new MusicSocial3.Models.SampleData());
+            new MusicSocial3.Models.SampleData());
+
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

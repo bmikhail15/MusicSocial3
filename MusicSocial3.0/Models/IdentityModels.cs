@@ -29,5 +29,8 @@ namespace MusicSocial3.Models
         {
             return new ApplicationDbContext();
         }
+
+       
+       
     }
 }
