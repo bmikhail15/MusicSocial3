@@ -9,7 +9,7 @@ namespace MusicSocial3.Controllers
 {
     public class MusicStoreController : Controller
     {
-        MusicStoreEntities storeDB = new MusicStoreEntities();
+        MusiStoreDataModels storeDB = new MusiStoreDataModels();
 
         // GET: MusicStore
         public ActionResult  Index()
@@ -21,13 +21,15 @@ namespace MusicSocial3.Controllers
 
         public ActionResult Details(int id)
         {
-            var album = new Album { Title = "Album" + id };
+            var album = storeDB.Albums.Find(id);
+
             return View(album);
         }
 
         public ActionResult Browse(string genre)
         {
-            var genreModel = new Genre { Name = genre };
+            var genreModel = storeDB.Genres.Include("Albums").Single(g => g.Name == genre);
+
             return View(genreModel);
         }
     }

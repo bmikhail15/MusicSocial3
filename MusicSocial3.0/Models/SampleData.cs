@@ -8,9 +8,9 @@ using System.Data.Entity;
 
 namespace MusicSocial3.Models
 {
-    public class SampleData : DropCreateDatabaseIfModelChanges<MusicStoreEntities>
+    public class SampleData : DropCreateDatabaseIfModelChanges<MusiStoreDataModels>
     {
-        protected override void Seed(MusicStoreEntities context)
+        protected override void Seed(MusiStoreDataModels context)
         {
             var genres = new List<Genre>
             {
