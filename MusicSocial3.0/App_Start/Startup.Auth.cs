@@ -54,15 +54,16 @@ namespace MusicSocial3._0
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "419859728389234",
+               appSecret: "7e042e22cb65202dd473d65ad7f2b16c");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "933257036793-c62f21nuqq9q89v807qqg9gp6ijg2om3.apps.googleusercontent.com",
+                ClientSecret = "d1ZIEwimRF-hIJS4_7YZwzNl"
+            });
+
         }
     }
 }

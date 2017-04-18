@@ -18,6 +18,12 @@ namespace MusicSocial3._0
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+                name: "MusicStore",
+                url: "{ controller}/{ action}/name/{ id}"
+           
+                );
         }
     }
 }
