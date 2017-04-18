@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace MusicSocial3._0
+namespace MusicSocial3
 {
     public class BundleConfig
     {

@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using MusicSocial3._0.Models;
+using MusicSocial3.Models;
 
-namespace MusicSocial3._0
+namespace MusicSocial3
 {
     public partial class Startup
     {

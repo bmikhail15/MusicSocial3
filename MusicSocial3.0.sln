@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSocial3.0", "MusicSocial3.0\MusicSocial3.0.csproj", "{81CE2454-127D-48AA-9574-2D605CE72615}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSocial3", "MusicSocial3.0\MusicSocial3.csproj", "{81CE2454-127D-48AA-9574-2D605CE72615}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

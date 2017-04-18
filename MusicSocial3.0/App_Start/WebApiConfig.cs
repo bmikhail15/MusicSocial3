@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace MusicSocial3._0
+namespace MusicSocial3
 {
     public static class WebApiConfig
     {

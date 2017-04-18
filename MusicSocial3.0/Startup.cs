@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(MusicSocial3._0.Startup))]
-namespace MusicSocial3._0
+[assembly: OwinStartupAttribute(typeof(MusicSocial3.Startup))]
+namespace MusicSocial3
 {
     public partial class Startup
     {
