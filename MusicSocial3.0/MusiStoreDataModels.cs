@@ -10,6 +10,10 @@ namespace MusicSocial3
     {
         public DbSet<Album> Albums { get; set; }
         public DbSet<Genre> Genres { get; set; }
+        public DbSet<Artist> Artist { get; set; }
+        //public DbSet<Cart> Carts { get; set; }
+        //public DbSet<Order> Orders { get; set; }
+        //public DbSet<OrderDetail> OrderDetails { get; set; }
         // Your context has been configured to use a 'MusiStoreDataModels' connection string from your application's 
         // configuration file (App.config or Web.config). By default, this connection string targets the 
         // 'MusicSocial3._0.MusiStoreDataModels' database on your LocalDb instance. 

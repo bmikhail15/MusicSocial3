@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace MusicSocial3.Models
+﻿namespace MusicSocial3.Models
 {
     public class Artist
     {

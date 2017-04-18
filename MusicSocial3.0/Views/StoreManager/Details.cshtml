@@ -1,0 +1,38 @@
+﻿@model MusicSocial3.Models.Album
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="container">
+    <h2>Details</h2>
+    <div class="panel panel-default">
+        <div class="panel-body"><h4>Album</h4></div>
+    </div>  
+</div>
+   
+    <div class="display-label">Genre</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Genre.Name)
+    </div>
+
+    <div class="display-label">Artist</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Artist.Name)
+    </div>
+
+    <div class="display-label">Title</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Title)
+    </div>
+
+    <div class="display-label">Price</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Price)
+    </div>
+
+       
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AlbumId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

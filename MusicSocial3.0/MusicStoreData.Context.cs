@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MusicSocial3._0
+namespace MusicSocial3
 {
     using System;
     using System.Data.Entity;

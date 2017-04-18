@@ -30,7 +30,10 @@ namespace MusicSocial3.Models
             return new ApplicationDbContext();
         }
 
-       
-       
+        public System.Data.Entity.DbSet<MusicSocial3.Models.Album> Albums { get; set; }
+
+        public System.Data.Entity.DbSet<MusicSocial3.Models.Artist> Artists { get; set; }
+
+        public System.Data.Entity.DbSet<MusicSocial3.Models.Genre> Genres { get; set; }
     }
 }
