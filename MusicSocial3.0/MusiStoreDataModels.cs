@@ -16,7 +16,7 @@ namespace MusicSocial3
         //public DbSet<OrderDetail> OrderDetails { get; set; }
         // Your context has been configured to use a 'MusiStoreDataModels' connection string from your application's 
         // configuration file (App.config or Web.config). By default, this connection string targets the 
-        // 'MusicSocial3._0.MusiStoreDataModels' database on your LocalDb instance. 
+        // 'MusicSocial3.MusiStoreDataModels' database on your LocalDb instance. 
         // 
         // If you wish to target a different database and/or database provider, modify the 'MusiStoreDataModels' 
         // connection string in the application configuration file.
