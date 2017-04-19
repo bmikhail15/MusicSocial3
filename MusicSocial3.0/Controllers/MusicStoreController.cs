@@ -14,7 +14,7 @@ namespace MusicSocial3.Controllers
         // GET: MusicStore
         public ActionResult  Index()
         {
-            var genres = storeDB.Genres.ToList();
+           var genres = storeDB.Genres.ToList();
            
             return View(genres);
         }
