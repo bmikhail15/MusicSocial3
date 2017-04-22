@@ -8,7 +8,15 @@ namespace MusicSocial3
     {
         public void Configuration(IAppBuilder app)
         {
+            
+            //app.UseIdentityManager(new IdentityManagerConfiguration()
+            //{
+            //    UserManagerFactory = Thinktecture.IdentityManager.MembershipReboot.UserManagerFactory.Create
+            //});
+
             ConfigureAuth(app);
         }
+
+        
     }
 }
