@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Linq;
 using System.Web.Mvc;
 using MusicSocial3.Models;
 
@@ -12,10 +9,10 @@ namespace MusicSocial3.Controllers
         MusiStoreDataModels storeDB = new MusiStoreDataModels();
 
         // GET: MusicStore
+        [Authorize]
         public ActionResult  Index()
         {
-           var genres = storeDB.Genres.ToList();
-           
+           var genres = storeDB.Genres.ToList(); 
             return View(genres);
         }
 

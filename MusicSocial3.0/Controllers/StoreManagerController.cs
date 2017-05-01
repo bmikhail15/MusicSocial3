@@ -10,6 +10,7 @@ using MusicSocial3.Models;
 
 namespace MusicSocial3.Controllers
 {
+    [Authorize(Roles = "Administrators")]
     public class StoreManagerController : Controller
     {
         private MusiStoreDataModels db = new MusiStoreDataModels();

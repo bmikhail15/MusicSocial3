@@ -15,8 +15,8 @@
             <div class="carousel-caption" role="option">
                 <p>
                     Be cool and join Music Social
-                    <a class="btn btn-default" @Html.ActionLink("Learn More","Login","Account")><br />
-                    </a>
+                     @Html.ActionLink( "Learn More", "Login", "Account","", new { @class = "btn btn-default" })
+                    
                 </p>
             </div>
         </div>
@@ -24,11 +24,8 @@
             <img src="~/wwwroot/images/banner2.jpeg" alt="Visual Studio" class="img-responsive" />
             <div class="carousel-caption" role="option">
                 <p>
-                   Collaborate with other artists<br />
+                   Collaborate with other artists @Html.ActionLink("Register", "Register", "Account", "", new { @class = "btn btn-default" })
                    
-                    <a class="btn btn-default" >
-                        Login
-                    </a>
                 </p>
             </div>
         </div>
@@ -36,10 +33,7 @@
             <img src="~/wwwroot/images/banner3.jpeg" alt="Package Management" class="img-responsive" />
             <div class="carousel-caption" role="option">
                 <p>
-                    Register to upload your music
-                    <a class="btn btn-default" href="#"><br />
-                        Learn More
-                    </a>
+                    Register to upload your music @Html.ActionLink("Register", "Register", "Account", "", new { @class = "btn btn-default" })
                 </p>
             </div>
         </div>
@@ -48,9 +42,8 @@
             <div class="carousel-caption" role="option">
                 <p>
                     Sign up to browse pre-released songs
-                    <a class="btn btn-default" href="#"><br />
-                        Register
-                    </a>
+                    @Html.ActionLink("Songs", "Index", "MusicStore", "", new { @class = "btn btn-default" })
+                    
                 </p>
             </div>
         </div>

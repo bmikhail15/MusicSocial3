@@ -11,10 +11,18 @@
     Select from @Model.Count()
     genres:
 </p>
-<ul>
+
     @foreach (var genre in Model)
     {
-        <li>@Html.ActionLink(genre.Name, "Browse", new { genre = genre.Name })</li>
+        @*<div class="well">
+            <h3>
+                <strong>@genre.Name</strong>
+                <span class=" pull-right label label-primary"> @genre.Albums</span>
+            </h3>
+            <span class="lead">@Html.ActionLink(genre.Name, "Browse", new { genre = genre.Name })</span>*@
+            <li class="list-group-item glyphicon glyphicon-music"> @Html.ActionLink(genre.Name, "Browse", new { genre = genre.Name }) </li>
+        @*</div>*@
     }
-</ul>
+
+
 
